@@ -1,88 +1,89 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Calculadora de IMC</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #0d1117;
-            color: #c9d1d9;
-        }
-        h1, h2 {
-            color: #58a6ff;
-        }
-        code {
-            background-color: #161b22;
-            padding: 5px;
-            border-radius: 5px;
-        }
-        pre {
-            background-color: #161b22;
-            padding: 10px;
-            border-radius: 8px;
-            overflow-x: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-    </style>
-</head>
-<body>
-<div class="container">
+# 📊 Calculadora de IMC em Java
 
-    <h1>📊 Calculadora de IMC em Java</h1>
-    <p>Projeto desenvolvido em Java para calcular o Índice de Massa Corporal (IMC).</p>
+Projeto desenvolvido em Java para calcular o Índice de Massa Corporal (IMC) com base no peso e altura do usuário.
 
-    <h2>🚀 Funcionalidades</h2>
-    <ul>
-        <li>Entrada de peso e altura</li>
-        <li>Cálculo automático do IMC</li>
-        <li>Classificação do resultado</li>
-        <li>Repetição com <code>while</code></li>
-    </ul>
+---
 
-    <h2>🧮 Fórmula</h2>
-    <p><strong>IMC = peso / (altura × altura)</strong></p>
+## 🚀 Funcionalidades
 
-    <h2>▶️ Como executar</h2>
-    <pre>
+* Entrada de peso e altura pelo usuário
+* Cálculo automático do IMC
+* Classificação do resultado:
+
+  * Abaixo do peso
+  * Peso normal
+  * Sobrepeso
+  * Obesidade
+* Repetição do cálculo usando estrutura de repetição (`while`)
+
+---
+
+## 🧮 Fórmula utilizada
+
+```
+IMC = peso / (altura * altura)
+```
+
+---
+
+## 💻 Tecnologias utilizadas
+
+* Java
+* Scanner (entrada de dados)
+* Estrutura de repetição (`while`)
+* Lógica de programação
+
+---
+
+## ▶️ Como executar
+
+```bash
 git clone git@github.com:SEU_USUARIO/java-estudos.git
 cd java-estudos
 javac IMC.java
 java IMC
-    </pre>
+```
 
-    <h2>📌 Exemplo</h2>
-    <pre>
+---
+
+## 📌 Exemplo de uso
+
+```
 Digite seu peso: 70
 Digite sua altura: 1.75
 
 Seu IMC é: 22.86
 Classificação: Peso normal
-    </pre>
+```
 
-    <h2>📚 Aprendizados</h2>
-    <ul>
-        <li>Estrutura de repetição (while)</li>
-        <li>Uso de Scanner</li>
-        <li>Lógica de programação</li>
-    </ul>
+---
 
-    <h2>📈 Melhorias futuras</h2>
-    <ul>
-        <li>Validação de dados</li>
-        <li>Interface gráfica</li>
-        <li>POO</li>
-    </ul>
+## 📚 Aprendizados
 
-    <h2>👩‍💻 Autor</h2>
-    <p>Seu Nome</p>
+Este projeto foi importante para praticar:
 
-</div>
-</body>
-</html>
+* Estruturas de repetição (`while`)
+* Entrada de dados com `Scanner`
+* Organização de código em Java
+
+---
+
+## 📈 Melhorias futuras
+
+* Validação de entrada mais robusta
+* Interface gráfica (Java Swing ou JavaFX)
+* Separação em classes (POO)
+
+---
+
+## 👩‍💻 Autor
+
+Joyce Moraes
+
+Estudante de Análise e Desenvolvimento de Sistemas
+
+---
+
+💡 Projeto desenvolvido para fins de estudo.
 
 
